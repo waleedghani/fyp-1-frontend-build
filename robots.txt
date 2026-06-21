@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ezignature.com/sitemap.xml
+
+# Block authenticated/account and editor areas from being crawled/indexed.
+Disallow: /dashboard/
+Disallow: /pdf-editor
+Disallow: /view-pdf/
+Disallow: /view-template/
+Disallow: /recipient-view/
+
+Disallow: /login
+Disallow: /sign-up
+Disallow: /forgot-password
+Disallow: /verify-otp
+Disallow: /verify-code
+Disallow: /new-password
+
+Disallow: /my-profile
+Disallow: /edit-profile
+Disallow: /my-cards
+Disallow: /my-signature
+Disallow: /change-password
+Disallow: /my-subscription
